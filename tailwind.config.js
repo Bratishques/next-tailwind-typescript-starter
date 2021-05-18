@@ -11,7 +11,23 @@ module.exports = {
       lg: "0 2px 10px rgba(0, 0, 0, 0.5)",
       "text-glow": "0 2px 10px rgba(0, 0, 0, 0.5)",
     },
-    extend: {},
+    extend: {
+      spacing: {
+        22: "5.5rem"
+      },
+      colors: {
+        "main-text": "#FFFFFD",
+        "grad-1": "#E94A44",
+        "redhead": "#E95A44",
+        "grad-2": "#E97F44",
+        "input-inactive": "#727272"
+      },
+      fontSize: {
+        "h3": ["1rem", {
+          lineHeight: "1.25rem"
+        }]
+      }
+    },
   },
   variants: {
     extend: {},
