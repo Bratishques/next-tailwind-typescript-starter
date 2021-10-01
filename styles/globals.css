@@ -12,7 +12,6 @@ body,
   justify-items: space-between;
   display: flex;
   height: calc((var(--vh, 1vh) * 100));
-  background-color: black;
   font-family: "Rubik";
   color: "#FFFFFD";
 }
